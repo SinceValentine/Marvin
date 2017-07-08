@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6692BF4B1DF3B2F30059ED8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6692BF4A1DF3B2F30059ED8C /* main.m */; };
+		6692BF4E1DF3B2F30059ED8C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6692BF4D1DF3B2F30059ED8C /* AppDelegate.m */; };
+		6692BF541DF3B2F30059ED8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6692BF521DF3B2F30059ED8C /* Main.storyboard */; };
+		6692BF561DF3B2F30059ED8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6692BF551DF3B2F30059ED8C /* Assets.xcassets */; };
+		6692BF641DF3B2F30059ED8C /* MarvinTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6692BF631DF3B2F30059ED8C /* MarvinTests.m */; };
+		6692BF6F1DF3B2F30059ED8C /* MarvinUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6692BF6E1DF3B2F30059ED8C /* MarvinUITests.m */; };
+		6692BF971DF3BECA0059ED8C /* Const.m in Sources */ = {isa = PBXBuildFile; fileRef = 6692BF961DF3BECA0059ED8C /* Const.m */; };
+		6692BF991DF3BFC90059ED8C /* Macor.m in Sources */ = {isa = PBXBuildFile; fileRef = 6692BF981DF3BFC90059ED8C /* Macor.m */; };
+		D13B77A84EBFBAC2E478ADED /* libPods-Marvin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CF8185876C22697FEA9D9278 /* libPods-Marvin.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6692BF601DF3B2F30059ED8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6692BF3E1DF3B2F30059ED8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6692BF451DF3B2F30059ED8C;
+			remoteInfo = Marvin;
+		};
+		6692BF6B1DF3B2F30059ED8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6692BF3E1DF3B2F30059ED8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6692BF451DF3B2F30059ED8C;
+			remoteInfo = Marvin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6692BF461DF3B2F30059ED8C /* Marvin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Marvin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6692BF4A1DF3B2F30059ED8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6692BF4C1DF3B2F30059ED8C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6692BF4D1DF3B2F30059ED8C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6692BF531DF3B2F30059ED8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6692BF551DF3B2F30059ED8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6692BF5A1DF3B2F30059ED8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6692BF5F1DF3B2F30059ED8C /* MarvinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarvinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6692BF631DF3B2F30059ED8C /* MarvinTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarvinTests.m; sourceTree = "<group>"; };
+		6692BF651DF3B2F30059ED8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6692BF6A1DF3B2F30059ED8C /* MarvinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarvinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6692BF6E1DF3B2F30059ED8C /* MarvinUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarvinUITests.m; sourceTree = "<group>"; };
+		6692BF701DF3B2F30059ED8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6692BF951DF3BECA0059ED8C /* Const.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Const.h; sourceTree = "<group>"; };
+		6692BF961DF3BECA0059ED8C /* Const.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Const.m; sourceTree = "<group>"; };
+		6692BF981DF3BFC90059ED8C /* Macor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Macor.m; sourceTree = "<group>"; };
+		6692BF9B1DF3C3320059ED8C /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		C5D20A9DB42F0CD9A1A6E72D /* Pods-Marvin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Marvin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Marvin/Pods-Marvin.debug.xcconfig"; sourceTree = "<group>"; };
+		CF8185876C22697FEA9D9278 /* libPods-Marvin.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Marvin.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEE56C6B0C26844229F0F9B5 /* Pods-Marvin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Marvin.release.xcconfig"; path = "Pods/Target Support Files/Pods-Marvin/Pods-Marvin.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6692BF431DF3B2F30059ED8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D13B77A84EBFBAC2E478ADED /* libPods-Marvin.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6692BF5C1DF3B2F30059ED8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6692BF671DF3B2F30059ED8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6692BF3D1DF3B2F30059ED8C = {
+			isa = PBXGroup;
+			children = (
+				6692BF481DF3B2F30059ED8C /* Marvin */,
+				6692BF621DF3B2F30059ED8C /* MarvinTests */,
+				6692BF6D1DF3B2F30059ED8C /* MarvinUITests */,
+				6692BF471DF3B2F30059ED8C /* Products */,
+				BBBE85EFFCBB8416365E7CDE /* Pods */,
+				9B919582C4E184E9B8E11A55 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6692BF471DF3B2F30059ED8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6692BF461DF3B2F30059ED8C /* Marvin.app */,
+				6692BF5F1DF3B2F30059ED8C /* MarvinTests.xctest */,
+				6692BF6A1DF3B2F30059ED8C /* MarvinUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6692BF481DF3B2F30059ED8C /* Marvin */ = {
+			isa = PBXGroup;
+			children = (
+				6692BF821DF3B4020059ED8C /* Storyboard */,
+				6692BF831DF3B4130059ED8C /* Interface */,
+				6692BF7E1DF3B3770059ED8C /* Tool */,
+				6692BF7F1DF3B3940059ED8C /* Category */,
+				6692BF931DF3B9390059ED8C /* Config */,
+				6692BF841DF3B44A0059ED8C /* Resource */,
+				6692BF811DF3B3BD0059ED8C /* Network */,
+				6692BF801DF3B3AD0059ED8C /* DataBase */,
+				6692BF7D1DF3B3100059ED8C /* Vendor */,
+				6692BF7C1DF3B2FF0059ED8C /* Framework */,
+				6692BF4C1DF3B2F30059ED8C /* AppDelegate.h */,
+				6692BF4D1DF3B2F30059ED8C /* AppDelegate.m */,
+				6692BF551DF3B2F30059ED8C /* Assets.xcassets */,
+				6692BF5A1DF3B2F30059ED8C /* Info.plist */,
+				6692BF491DF3B2F30059ED8C /* Supporting Files */,
+			);
+			path = Marvin;
+			sourceTree = "<group>";
+		};
+		6692BF491DF3B2F30059ED8C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6692BF4A1DF3B2F30059ED8C /* main.m */,
+				6692BF9B1DF3C3320059ED8C /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6692BF621DF3B2F30059ED8C /* MarvinTests */ = {
+			isa = PBXGroup;
+			children = (
+				6692BF631DF3B2F30059ED8C /* MarvinTests.m */,
+				6692BF651DF3B2F30059ED8C /* Info.plist */,
+			);
+			path = MarvinTests;
+			sourceTree = "<group>";
+		};
+		6692BF6D1DF3B2F30059ED8C /* MarvinUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6692BF6E1DF3B2F30059ED8C /* MarvinUITests.m */,
+				6692BF701DF3B2F30059ED8C /* Info.plist */,
+			);
+			path = MarvinUITests;
+			sourceTree = "<group>";
+		};
+		6692BF7C1DF3B2FF0059ED8C /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+		6692BF7D1DF3B3100059ED8C /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Vendor;
+			sourceTree = "<group>";
+		};
+		6692BF7E1DF3B3770059ED8C /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Tool;
+			sourceTree = "<group>";
+		};
+		6692BF7F1DF3B3940059ED8C /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		6692BF801DF3B3AD0059ED8C /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = DataBase;
+			sourceTree = "<group>";
+		};
+		6692BF811DF3B3BD0059ED8C /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		6692BF821DF3B4020059ED8C /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				6692BF521DF3B2F30059ED8C /* Main.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		6692BF831DF3B4130059ED8C /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				6692BF8E1DF3B6C30059ED8C /* Other */,
+			);
+			name = Interface;
+			sourceTree = "<group>";
+		};
+		6692BF841DF3B44A0059ED8C /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				6692BF871DF3B4800059ED8C /* Html */,
+				6692BF861DF3B4770059ED8C /* Plist */,
+				6692BF851DF3B46A0059ED8C /* Image */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		6692BF851DF3B46A0059ED8C /* Image */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
+		6692BF861DF3B4770059ED8C /* Plist */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Plist;
+			sourceTree = "<group>";
+		};
+		6692BF871DF3B4800059ED8C /* Html */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Html;
+			sourceTree = "<group>";
+		};
+		6692BF881DF3B4B40059ED8C /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				6692BF981DF3BFC90059ED8C /* Macor.m */,
+			);
+			name = Macro;
+			sourceTree = "<group>";
+		};
+		6692BF8E1DF3B6C30059ED8C /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				6692BF921DF3B91A0059ED8C /* Base */,
+				6692BF911DF3B8DA0059ED8C /* TabBar */,
+				6692BF901DF3B8BE0059ED8C /* Navigation */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		6692BF901DF3B8BE0059ED8C /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Navigation;
+			sourceTree = "<group>";
+		};
+		6692BF911DF3B8DA0059ED8C /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = TabBar;
+			sourceTree = "<group>";
+		};
+		6692BF921DF3B91A0059ED8C /* Base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		6692BF931DF3B9390059ED8C /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				6692BF881DF3B4B40059ED8C /* Macro */,
+				6692BF941DF3BEAB0059ED8C /* Const */,
+			);
+			name = Config;
+			sourceTree = "<group>";
+		};
+		6692BF941DF3BEAB0059ED8C /* Const */ = {
+			isa = PBXGroup;
+			children = (
+				6692BF951DF3BECA0059ED8C /* Const.h */,
+				6692BF961DF3BECA0059ED8C /* Const.m */,
+			);
+			name = Const;
+			sourceTree = "<group>";
+		};
+		9B919582C4E184E9B8E11A55 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF8185876C22697FEA9D9278 /* libPods-Marvin.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BBBE85EFFCBB8416365E7CDE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C5D20A9DB42F0CD9A1A6E72D /* Pods-Marvin.debug.xcconfig */,
+				EEE56C6B0C26844229F0F9B5 /* Pods-Marvin.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6692BF451DF3B2F30059ED8C /* Marvin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6692BF731DF3B2F30059ED8C /* Build configuration list for PBXNativeTarget "Marvin" */;
+			buildPhases = (
+				90A3DFE525AC47620AF04BC7 /* [CP] Check Pods Manifest.lock */,
+				6692BF421DF3B2F30059ED8C /* Sources */,
+				6692BF431DF3B2F30059ED8C /* Frameworks */,
+				6692BF441DF3B2F30059ED8C /* Resources */,
+				CE8F23DD27510AB7212912C4 /* [CP] Embed Pods Frameworks */,
+				3A7E9F93B4A4E7D51B569F7A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Marvin;
+			productName = Marvin;
+			productReference = 6692BF461DF3B2F30059ED8C /* Marvin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6692BF5E1DF3B2F30059ED8C /* MarvinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6692BF761DF3B2F30059ED8C /* Build configuration list for PBXNativeTarget "MarvinTests" */;
+			buildPhases = (
+				6692BF5B1DF3B2F30059ED8C /* Sources */,
+				6692BF5C1DF3B2F30059ED8C /* Frameworks */,
+				6692BF5D1DF3B2F30059ED8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6692BF611DF3B2F30059ED8C /* PBXTargetDependency */,
+			);
+			name = MarvinTests;
+			productName = MarvinTests;
+			productReference = 6692BF5F1DF3B2F30059ED8C /* MarvinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6692BF691DF3B2F30059ED8C /* MarvinUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6692BF791DF3B2F30059ED8C /* Build configuration list for PBXNativeTarget "MarvinUITests" */;
+			buildPhases = (
+				6692BF661DF3B2F30059ED8C /* Sources */,
+				6692BF671DF3B2F30059ED8C /* Frameworks */,
+				6692BF681DF3B2F30059ED8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6692BF6C1DF3B2F30059ED8C /* PBXTargetDependency */,
+			);
+			name = MarvinUITests;
+			productName = MarvinUITests;
+			productReference = 6692BF6A1DF3B2F30059ED8C /* MarvinUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6692BF3E1DF3B2F30059ED8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Since;
+				TargetAttributes = {
+					6692BF451DF3B2F30059ED8C = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 75PMA2W3JR;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					6692BF5E1DF3B2F30059ED8C = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6692BF451DF3B2F30059ED8C;
+					};
+					6692BF691DF3B2F30059ED8C = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6692BF451DF3B2F30059ED8C;
+					};
+				};
+			};
+			buildConfigurationList = 6692BF411DF3B2F30059ED8C /* Build configuration list for PBXProject "Marvin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6692BF3D1DF3B2F30059ED8C;
+			productRefGroup = 6692BF471DF3B2F30059ED8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6692BF451DF3B2F30059ED8C /* Marvin */,
+				6692BF5E1DF3B2F30059ED8C /* MarvinTests */,
+				6692BF691DF3B2F30059ED8C /* MarvinUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6692BF441DF3B2F30059ED8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6692BF561DF3B2F30059ED8C /* Assets.xcassets in Resources */,
+				6692BF541DF3B2F30059ED8C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6692BF5D1DF3B2F30059ED8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6692BF681DF3B2F30059ED8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3A7E9F93B4A4E7D51B569F7A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Marvin/Pods-Marvin-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90A3DFE525AC47620AF04BC7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CE8F23DD27510AB7212912C4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Marvin/Pods-Marvin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6692BF421DF3B2F30059ED8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6692BF991DF3BFC90059ED8C /* Macor.m in Sources */,
+				6692BF971DF3BECA0059ED8C /* Const.m in Sources */,
+				6692BF4E1DF3B2F30059ED8C /* AppDelegate.m in Sources */,
+				6692BF4B1DF3B2F30059ED8C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6692BF5B1DF3B2F30059ED8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6692BF641DF3B2F30059ED8C /* MarvinTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6692BF661DF3B2F30059ED8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6692BF6F1DF3B2F30059ED8C /* MarvinUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6692BF611DF3B2F30059ED8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6692BF451DF3B2F30059ED8C /* Marvin */;
+			targetProxy = 6692BF601DF3B2F30059ED8C /* PBXContainerItemProxy */;
+		};
+		6692BF6C1DF3B2F30059ED8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6692BF451DF3B2F30059ED8C /* Marvin */;
+			targetProxy = 6692BF6B1DF3B2F30059ED8C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6692BF521DF3B2F30059ED8C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6692BF531DF3B2F30059ED8C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6692BF711DF3B2F30059ED8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6692BF721DF3B2F30059ED8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6692BF741DF3B2F30059ED8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5D20A9DB42F0CD9A1A6E72D /* Pods-Marvin.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 75PMA2W3JR;
+				INFOPLIST_FILE = Marvin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Since.Marvin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		6692BF751DF3B2F30059ED8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEE56C6B0C26844229F0F9B5 /* Pods-Marvin.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 75PMA2W3JR;
+				INFOPLIST_FILE = Marvin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Since.Marvin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+		6692BF771DF3B2F30059ED8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MarvinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Since.MarvinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Marvin.app/Marvin";
+			};
+			name = Debug;
+		};
+		6692BF781DF3B2F30059ED8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MarvinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Since.MarvinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Marvin.app/Marvin";
+			};
+			name = Release;
+		};
+		6692BF7A1DF3B2F30059ED8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MarvinUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Since.MarvinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Marvin;
+			};
+			name = Debug;
+		};
+		6692BF7B1DF3B2F30059ED8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MarvinUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Since.MarvinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Marvin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6692BF411DF3B2F30059ED8C /* Build configuration list for PBXProject "Marvin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6692BF711DF3B2F30059ED8C /* Debug */,
+				6692BF721DF3B2F30059ED8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6692BF731DF3B2F30059ED8C /* Build configuration list for PBXNativeTarget "Marvin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6692BF741DF3B2F30059ED8C /* Debug */,
+				6692BF751DF3B2F30059ED8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6692BF761DF3B2F30059ED8C /* Build configuration list for PBXNativeTarget "MarvinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6692BF771DF3B2F30059ED8C /* Debug */,
+				6692BF781DF3B2F30059ED8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6692BF791DF3B2F30059ED8C /* Build configuration list for PBXNativeTarget "MarvinUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6692BF7A1DF3B2F30059ED8C /* Debug */,
+				6692BF7B1DF3B2F30059ED8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6692BF3E1DF3B2F30059ED8C /* Project object */;
+}
